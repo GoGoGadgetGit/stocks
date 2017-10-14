@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 import {trackCompany} from '../../actions';
 
-class CompanyDisplay extends Component{
+class CompanyTracker extends Component{
 
   render(){
 
@@ -34,4 +34,4 @@ function mapDispatch2Props(dispatch){
 
 
 
-export default connect(mapState2Props, mapDispatch2Props)(CompanyDisplay);
+export default connect(mapState2Props, mapDispatch2Props)(CompanyTracker);

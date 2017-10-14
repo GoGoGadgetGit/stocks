@@ -4,7 +4,7 @@ import './App.css';
 
 
 import SearchBar from './compon/components/SearchBar';
-import CompanyDisplay from './compon/components/CompanyDisplay';
+import CompanyTracker from './compon/components/CompanyTracker';
 
 
 class App extends Component {
@@ -18,7 +18,7 @@ class App extends Component {
         <main>
           <div>
             <SearchBar />
-            <CompanyDisplay />
+            <CompanyTracker />
           </div>
         </main>
       </div>
